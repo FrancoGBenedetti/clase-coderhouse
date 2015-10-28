@@ -1,14 +1,10 @@
-.azul{
-	background-color: blue;
-}
-.rojo{
-	background-color: red;
-}
-
-
-figure{
-	img{
-		width: 90%;
-		height: 90%;
+.col-md-3{
+	&.azul{
+		background-color: blue;
+	}
+	ul {
+		li{
+			list-style: none;
+		}
 	}
 }
